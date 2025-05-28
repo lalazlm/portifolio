@@ -1,0 +1,35 @@
+/* Importando a fonte Chakra Petch */
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* Definindo variáveis de cores */
+:root {
+  --cor-principal: #6E859F; /* Cinza */
+  --cor-secundaria: #284260; /* Preto */
+  --cor-destaque: #C92BFC;   /* Roxo */
+}
+
+/* Aplicando a fonte ao corpo do site */
+body {
+  font-family: "Chakra Petch", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff; /* fundo branco, pode ajustar se desejar */
+  color: #333; /* cor padrão do texto */
+}
+
+/* Estilizando títulos h1, h2 e h5 */
+h1, h2, h5 {
+  color: var(--cor-secundaria);
+  font-weight: 700;
+}
+
+/* Personalizando o footer */
+footer a {
+  color: var(--cor-principal);
+  text-decoration: none; /* removendo sublinhado, se desejar */
+  transition: color 0.3s ease; /* animação suave na troca de cor */
+}
+
+footer a:hover {
+  color: var(--cor-destaque);
+}
